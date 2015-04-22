@@ -1,0 +1,11 @@
+Node							
+Type		Shape		Style		Width		Height		Color		
+river		box		solid		0		0		#FF0000		
+lake		box		rounded	0		0		#FFF000		
+sea		box		filled		0		0		#007777		
+
+Edge							
+Type	Color		Direction	Style		Label	Fontname	Fontcolor	Fondsize
+rr	#770000	none		bold		RR	Arial		#000000	8
+rl	#00FF00	none		dashed		RL	Arial		#000000	8
+rs	#000FFF	none		solid		RS	Arial		#000000	8

@@ -1,0 +1,44 @@
+Cheng, Allan: 
+- Wrote the majority of the C++ code
+- Parsed and translated the text files into DOT
+- Error checking
+Lau, Jeannie: 
+- Wrote the queries
+- Contributed to the C++ code
+- Error checking
+- Put together the report
+
+
+- We implemented the first option, the PostgresSQL Data Viewer (GDT-PDV)
+- We used the data and input from Mondial
+	-Mainly the River, Lake, and Sea schemas/input 
+- To build our system, make sure all of the files are in the same directory and simply type the following:
+	>start_postgres
+	>make
+- Other than postgres, you will not need to install anything else as long as you use the CSIF system.
+- Run our tool by doing the following:
+	>make
+	>generator
+	-Follow the command prompt (e.g. enter your option)
+	-When command is returned to the user, look for the file graph.gv
+	-Open the graph.gv in Graphviz, and it will produce a graph of the items that the user specified
+	-We excluded nodes that didn't have any edges
+	
+Demo Example:
+	>start_postgres
+	>make
+	>generator
+	/*will insert schemas and input into the database*/
+	Select a GV
+	1. River to river only.
+	2. River to lake only.
+	3. River to sea only.
+	4. River to river and lake.
+	5. River to river and sea.
+	6. River to lake and sea.
+	7. River to all.
+	Choose a number: 3
+	>
+	/**Program should have created graph.gv. Take that file and open it in Graphviz**/
+
+- We didnt use any special tools other than an instant messenger to communicate and gmail to send each other the updated files

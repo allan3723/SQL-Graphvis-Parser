@@ -1,0 +1,185 @@
+digraph {
+rankdir=BT
+node [shape="box" style="solid" width=0 height=0 color="#FF0000"]
+Mekong[label="Mekong"]
+Orinoco[label="Orinoco"]
+Kolyma[label="Kolyma"]
+Chatanga[label="Chatanga"]
+Arno[label="Arno"]
+Yukon_River[label="Yukon River"]
+Rio_San_Juan[label="Rio San Juan"]
+Loire[label="Loire"]
+Gambia[label="Gambia"]
+Petschora[label="Petschora"]
+Zaire[label="Zaire"]
+Etsch[label="Etsch"]
+Mackenzie_River[label="Mackenzie River"]
+Parana[label="Parana"]
+Saint_Lawrence_River[label="Saint Lawrence River"]
+Don[label="Don"]
+Garonne[label="Garonne"]
+Tajo[label="Tajo"]
+Nelson_River[label="Nelson River"]
+Thjorsa[label="Thjorsa"]
+Senegal[label="Senegal"]
+Hudson_River[label="Hudson River"]
+Indus[label="Indus"]
+Paatsjoki[label="Paatsjoki"]
+Jubba[label="Jubba"]
+Limpopo[label="Limpopo"]
+Jenissej[label="Jenissej"]
+Narva[label="Narva"]
+Amazonas[label="Amazonas"]
+Elbe[label="Elbe"]
+Saluen[label="Saluen"]
+Asahan[label="Asahan"]
+Ganges[label="Ganges"]
+Niger[label="Niger"]
+Western_Dwina[label="Western Dwina"]
+Hwangho[label="Hwangho"]
+Rio_Grande[label="Rio Grande"]
+Oranje[label="Oranje"]
+Donau[label="Donau"]
+Mississippi[label="Mississippi"]
+Newa[label="Newa"]
+Weichsel[label="Weichsel"]
+Dalaelv[label="Dalaelv"]
+Colorado[label="Colorado"]
+Glomma[label="Glomma"]
+Merrimack_River[label="Merrimack River"]
+Joekulsa_a_Fjoellum[label="Joekulsa a Fjoellum"]
+Seine[label="Seine"]
+Volta[label="Volta"]
+Columbia_River[label="Columbia River"]
+Kokemaeenjoki[label="Kokemaeenjoki"]
+Rio_Magdalena[label="Rio Magdalena"]
+Oulujoki[label="Oulujoki"]
+Tiber[label="Tiber"]
+Guadiana[label="Guadiana"]
+Murray_River[label="Murray River"]
+Kymijoki[label="Kymijoki"]
+Schatt_al_Arab[label="Schatt al Arab"]
+Ob[label="Ob"]
+Dnjestr[label="Dnjestr"]
+Northern_Dwina[label="Northern Dwina"]
+Rhein[label="Rhein"]
+Connecticut_River[label="Connecticut River"]
+Thames[label="Thames"]
+Maas[label="Maas"]
+Ebro[label="Ebro"]
+Rio_Lerma[label="Rio Lerma"]
+Douro[label="Douro"]
+Rio_Sao_Francisco[label="Rio Sao Francisco"]
+Guadalquivir[label="Guadalquivir"]
+Kemijoki[label="Kemijoki"]
+Amur[label="Amur"]
+Jangtse[label="Jangtse"]
+Nile[label="Nile"]
+Uruguay[label="Uruguay"]
+Dnepr[label="Dnepr"]
+Goetaaelv[label="Goetaaelv"]
+Po[label="Po"]
+Umeaelv[label="Umeaelv"]
+Sanaga[label="Sanaga"]
+Drin[label="Drin"]
+Zambezi[label="Zambezi"]
+Rhone[label="Rhone"]
+Weser[label="Weser"]
+Lena[label="Lena"]
+Tocantins[label="Tocantins"]
+Oder[label="Oder"]
+Irawaddy[label="Irawaddy"]
+
+node [shape="box" style="filled" width=0 height=0 color="#007777"]
+
+edge [color="#000FFF" dir=none style=solid label="RS" fontname="Arial" fontcolor="#000000" fontsize="8"]
+Amazonas -> Atlantic_Ocean
+Amur -> Sea_of_Okhotsk
+Arno -> Mediterranean_Sea
+Asahan -> Malakka_Strait
+Chatanga -> Sibirian_Sea
+Colorado -> Pacific_Ocean
+Columbia_River -> Pacific_Ocean
+Connecticut_River -> Atlantic_Ocean
+Dalaelv -> Baltic_Sea
+Dnepr -> Black_Sea
+Dnjestr -> Black_Sea
+Don -> Sea_of_Azov
+Donau -> Black_Sea
+Douro -> Atlantic_Ocean
+Drin -> Mediterranean_Sea
+Ebro -> Mediterranean_Sea
+Elbe -> North_Sea
+Etsch -> Mediterranean_Sea
+Gambia -> Atlantic_Ocean
+Ganges -> Gulf_of_Bengal
+Garonne -> Atlantic_Ocean
+Glomma -> Skagerrak
+Goetaaelv -> Kattegat
+Guadalquivir -> Atlantic_Ocean
+Guadiana -> Atlantic_Ocean
+Hudson_River -> Atlantic_Ocean
+Hwangho -> Yellow_Sea
+Indus -> Arabian_Sea
+Irawaddy -> Andaman_Sea
+Jangtse -> East_China_Sea
+Jenissej -> Sibirian_Sea
+Joekulsa_a_Fjoellum -> Norwegian_Sea
+Jubba -> Indian_Ocean
+Kemijoki -> Baltic_Sea
+Kokemaeenjoki -> Baltic_Sea
+Kolyma -> Sibirian_Sea
+Kymijoki -> Baltic_Sea
+Lena -> Sibirian_Sea
+Limpopo -> Indian_Ocean
+Loire -> Atlantic_Ocean
+Maas -> North_Sea
+Mackenzie_River -> Arctic_Ocean
+Mekong -> South_China_Sea
+Merrimack_River -> Atlantic_Ocean
+Mississippi -> Gulf_of_Mexico
+Murray_River -> Indian_Ocean
+Narva -> Baltic_Sea
+Nelson_River -> Arctic_Ocean
+Newa -> Baltic_Sea
+Niger -> Atlantic_Ocean
+Nile -> Mediterranean_Sea
+Northern_Dwina -> Barents_Sea
+Ob -> Sibirian_Sea
+Oder -> Baltic_Sea
+Oranje -> Atlantic_Ocean
+Orinoco -> Atlantic_Ocean
+Oulujoki -> Baltic_Sea
+Paatsjoki -> Barents_Sea
+Parana -> Atlantic_Ocean
+Petschora -> Barents_Sea
+Po -> Mediterranean_Sea
+Rhein -> North_Sea
+Rhone -> Mediterranean_Sea
+Rio_Grande -> Gulf_of_Mexico
+Rio_Lerma -> Pacific_Ocean
+Rio_Magdalena -> Caribbean_Sea
+Rio_San_Juan -> Caribbean_Sea
+Rio_Sao_Francisco -> Atlantic_Ocean
+Saint_Lawrence_River -> Atlantic_Ocean
+Saluen -> Andaman_Sea
+Sanaga -> Atlantic_Ocean
+Schatt_al_Arab -> Persian_Gulf
+Seine -> The_Channel
+Senegal -> Atlantic_Ocean
+Tajo -> Atlantic_Ocean
+Thames -> North_Sea
+Thjorsa -> Atlantic_Ocean
+Tiber -> Mediterranean_Sea
+Tocantins -> Atlantic_Ocean
+Umeaelv -> Baltic_Sea
+Uruguay -> Atlantic_Ocean
+Volta -> Atlantic_Ocean
+Weichsel -> Baltic_Sea
+Weser -> North_Sea
+Western_Dwina -> Baltic_Sea
+Yukon_River -> Bering_Sea
+Zaire -> Atlantic_Ocean
+Zambezi -> Indian_Ocean
+
+}
